@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'AppleKid';
+    src: url('fonts/apple_kid.ttf');
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(rgba(3,105,121,0.25), rgba(47,0,74,0.25) , rgba(93,34,125,0.25));
+    background-color: #1f3b62;
+}
+
+h3 {
+    border-bottom: 5px solid #475B7C;
+    background-color: #ABC4EA;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0.5em;
+    font-size: 2em ;
+    font-family: 'AppleKid', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* h2 {
+    padding: 0.5em;
+} */
+
+h1 {
+    border-top: 5px solid #475B7C;
+    border-bottom: 5px solid #475B7C;
+    background-color: #ABC4EA;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+q {
+    color:#757575;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em ;
+}
+
+/* hr {
+    width:"100%";
+    color: #475B7C;
+    size:4;
+} */
+
+.title {
+    border-bottom: 5px solid #475B7C;
+    background-color: #ABC4EA;
+    padding: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* header {
+    /* background-color: #859ABC; */
+
+/* } */
+
+.framedpicture {
+    width: auto;
+    border: 5px solid #475B7C;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.toolbar {
+    color: white;
+    border-style: solid;
+    border-color: #475B7C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #3C4D68;
+    border-radius: 5px 5px 5px 5px;
+}
+
+a:hover {
+    background-color: #cadfff;
+  }
+
+.article {
+    background-color: #cadfff;
+    /* border: 5px solid #475B7C; */
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px 10px 20px;
+    padding-top: 0.01em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+}
+
+.pageintro {
+    border: none;
+    background-color: #cadfff;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0px 10px 20px;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+}
+
+
+
+/* p {
+    padding: 0.5em;
+    position:relative; left:80px; top:20px;
+}
+
+section {
+    display: flex ;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+
+} */
