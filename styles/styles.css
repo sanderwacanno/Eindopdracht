@@ -4,9 +4,12 @@
 }
 
 body {
+    overflow-y: scroll;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(rgba(3,105,121,0.25), rgba(47,0,74,0.25) , rgba(93,34,125,0.25));
-    background-color: #1f3b62;
+    /* background-image: linear-gradient(rgba(3,105,121,0.25), rgba(47,0,74,0.25) , rgba(93,34,125,0.25));
+    background-color: #1f3b62; */
+    background: rgb(0,144,248);
+    background: linear-gradient(180deg, rgba(0,144,248,1) 0%, rgba(0,160,248,1) 75%, rgba(56,184,248,1) 100%);
 }
 
 h3 {
@@ -55,8 +58,16 @@ hr {
 
 /* } */
 
+.imagerow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    flex-direction: row;
+    height: auto;
+}
+
 .framedpicture {
-    width: auto;
+    align-self: start;
     border: 5px solid #475B7C;
     border-radius: 10px 10px 10px 10px;
 }
@@ -75,6 +86,20 @@ a:hover {
     background-color: #cadfff;
   }
 
+/* .articlelist {
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+} */
+
+#title {
+    width: 40%;
+    height: 40%;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
 .article {
     /* background-color: #cadfff; */
     /* border: 5px solid #475B7C; */
@@ -86,6 +111,12 @@ a:hover {
     padding-left: 0.5em;
     padding-bottom: 0.5em;
     padding-right: 0.5em;
+    /* float: right; */
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width:60%;
+    height:100%;
 }
 
 .pageintro {
@@ -96,6 +127,16 @@ a:hover {
     border-radius: 10px 10px 10px 10px;
     margin: 0px 10px 20px;
     padding-bottom: 0.5em;
+    float: center;
+    /* width: 60%; */
+}
+
+.leftobject {
+    margin-left: -117.5%;
+}
+
+.introtext {
+    padding-left: 0.5em;
 }
 
 .toppage {
@@ -108,6 +149,31 @@ a:hover {
     padding-bottom: 0.5em;
     padding-right: 0.5em;
 }
+
+/* input[type="checkbox"] {
+    content: url("Images/yummenikki/poniko.png");
+    appearance: none;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+input[type="checkbox"]:checked {
+    content: url("Images/yummenikki/uboa.png");
+} */
+
+input[type="checkbox"] {
+    content: url('http://placekitten.com/150/160');
+    appearance: none;
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+input[type="checkbox"]:checked {
+    content: url('https://static.wikia.nocookie.net/yumenikki/images/0/0f/Uboa.png');
+}
+
 
 
 /* p {
