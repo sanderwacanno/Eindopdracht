@@ -78,7 +78,7 @@ nav {
 
 .imagecollumn {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     width: auto;
@@ -86,9 +86,11 @@ nav {
 }
 
 .imagecollumnimage {
-    margin-top: 0.5em;
+    margin-top: 1em;
     height: auto;
     width: 25vw;
+    border: 5px solid #ABC4EA;
+    border-radius: 10px 10px 10px 10px;
 }
 
 iframe {
@@ -106,6 +108,10 @@ iframe {
     width: 25vw;
 }
 
+audio {
+    width: 25vw;
+}
+
 .toolbar {
     color: black;
     text-decoration: none;
@@ -115,6 +121,7 @@ iframe {
     background-color: #ABC4EA;
     border-radius: 5px 5px 5px 5px;
     margin-right: 0.5vw;
+    text-align: center;
 }
 
 a {
