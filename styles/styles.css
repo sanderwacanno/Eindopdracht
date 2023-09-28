@@ -22,10 +22,6 @@ h3 {
     font-family: 'AppleKid', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* h2 {
-    margin: 0px 0px 0px;
-} */
-
 h1 {
     border-top: 5px solid #475B7C;
     border-bottom: 5px solid #475B7C;
@@ -34,6 +30,10 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* h2 {
+    margin: 0px 0px 0px;
+} */
+
 q {
     color:#757575;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -41,8 +41,7 @@ q {
 }
 
 hr {
-    width:"100%";
-    color: #475B7C;
+    border: 2.5px solid #475B7C;
     /* size:4; */
 }
 
@@ -94,8 +93,8 @@ nav {
 }
 
 iframe {
-    height: auto;
-    max-width: 50%;
+    height:20vw;
+    width: 25vw;
 }
 
 .framedpicture {
@@ -131,6 +130,7 @@ a {
 a:hover {
     background-color: #cadfff;
     transform: scale(1.10);
+    color: white;
   }
 
 .sprite {
@@ -191,7 +191,6 @@ a:hover {
     border-radius: 10px 10px 10px 10px;
     margin: 0px 10px 10px;
     padding-bottom: 0.5em;
-    float: center;
     /* width: 60%; */
 }
 
@@ -214,8 +213,21 @@ a:hover {
     padding-right: 0.5em;
 }
 
+#maebass {
+    width: auto;
+    max-height: 25vw;
+}
+
+/* #maebass {
+    border:transparent;
+    direction: ;
+    width="50vw"
+    height="50vw"
+    behavior="alternate"
+} */
+
 /* input[type="checkbox"] {
-    content: url("Images/yummenikki/poniko.png");
+    content: url("images/yummenikki/poniko.png");
     appearance: none;
     display: block;
     width: auto;
@@ -223,7 +235,7 @@ a:hover {
 }
 
 input[type="checkbox"]:checked {
-    content: url("Images/yummenikki/uboa.png");
+    content: url("images/yummenikki/uboa.png");
 } */
 
 /* input[type="checkbox"] {
