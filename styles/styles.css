@@ -215,7 +215,12 @@ a:hover {
 
 #maebass {
     width: auto;
-    max-height: 25vw;
+    height: 10vw;
+}
+
+#johncleese {
+    width: auto;
+    height: 20vw;
 }
 
 /* #maebass {
