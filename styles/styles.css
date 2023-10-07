@@ -89,7 +89,7 @@ nav {
     border-radius: 10px 10px 10px 10px;
     animation-name: imagepopup; 
     animation-duration: 1.5s;
-    animation-timing-function: ease;
+    /* animation-timing-function: ease; */
 }
 
 .imagecollumn hr {
