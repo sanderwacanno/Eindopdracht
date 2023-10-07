@@ -1,26 +1,14 @@
-@font-face {
+/* @font-face {
     font-family: 'AppleKid';
     src: url('fonts/apple_kid.ttf');
-}
+} */
 
 body {
     overflow-y: scroll;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* background-image: linear-gradient(rgba(3,105,121,0.25), rgba(47,0,74,0.25) , rgba(93,34,125,0.25));
-    background-color: #1f3b62; */
     background-image: url('images/title.gif');
     background: rgb(0,144,248);
     background: linear-gradient(180deg, rgba(0,144,248,1) 0%, rgba(0,160,248,1) 75%, rgba(56,184,248,1) 100%);
-}
-
-h3 {
-    /* border-bottom: 5px solid #475B7C; */
-    /* background-color: #ABC4EA; */
-    /* border-radius: 10px 10px 10px 10px; */
-    padding: 0.5em;
-    margin: 10px 0px 10px;
-    font-size: 2em ;
-    font-family: 'AppleKid', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
@@ -31,9 +19,12 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* h2 {
-    margin: 0px 0px 0px;
-} */
+h3 {
+    padding: 0.5em;
+    margin: 10px 0px 10px;
+    /* font-size: 2em ; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 q {
     color:#757575;
@@ -43,7 +34,6 @@ q {
 
 hr {
     border: 2.5px solid #475B7C;
-    /* size:4; */
 }
 
 nav {
@@ -61,11 +51,6 @@ nav {
     max-height: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-/* header {
-    /* background-color: #859ABC; */
-
-/* } */
 
 .imagerow {
     display: flex;
@@ -87,15 +72,14 @@ nav {
 
 .imagecollumn {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     width: auto;
     max-height: 100%;
 }
 
-.imagecollumnimage {
-    margin-top: 1em;
+.imagecollumn img {
+    margin-top: 0.5em;
     height: auto;
     width: 25vw;
     border: 5px solid #ABC4EA;
@@ -107,17 +91,15 @@ iframe {
     width: 25vw;
 }
 
+audio {
+    width: 25vw;
+}
+
 .framedpicture {
     align-self: start;
     border: 5px solid #475B7C;
     border-radius: 10px 10px 10px 10px;
-    /* max-width: 100%;
-    height: auto; */
     height: auto;
-    width: 25vw;
-}
-
-audio {
     width: 25vw;
 }
 
@@ -134,7 +116,8 @@ audio {
 }
 
 a {
-    transition: all 250ms ease-out
+    transition: all 250ms ease-out;
+    text-decoration: none;
 }
 
 a:hover {
@@ -181,8 +164,6 @@ a:active {
 }
 
 .article {
-    /* background-color: #cadfff; */
-    /* border: 5px solid #475B7C; */
     background: rgb(233,242,255);
     background: linear-gradient(180deg, rgba(233,242,255,1) 0%, rgba(200,221,254,1) 3%, rgba(151,178,219,1) 97%, rgba(89,123,175,1) 100%);
     border-radius: 10px 10px 10px 10px;
@@ -191,11 +172,6 @@ a:active {
     padding-left: 0.5em;
     padding-bottom: 0.5em;
     padding-right: 0.5em;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: right; */
-    /* width:75%;
-    height:100%; */
 }
 
 
@@ -213,20 +189,14 @@ a:active {
 
 .pageintro {
     border: none;
-    /* background-color: #cadfff; */
     background: rgb(202,223,255);
     background: linear-gradient(180deg, rgba(202,223,255,1) 0%, rgba(255,255,255,1) 2%, rgba(202,223,255,1) 10%, rgba(202,223,255,1) 82%, rgba(89,123,175,1) 100%);
     border-radius: 10px 10px 10px 10px;
     margin: 0px 10px 10px;
     padding-bottom: 0.5em;
-    /* width: 60%; */
 }
 
-/* .leftobject {
-    margin-left: -117.5%;
-} */
-
-.introtext {
+.pageintro p {
     padding-left: 0.5em;
 }
 
@@ -256,49 +226,7 @@ a:active {
     width: 15vw
 }
 
-/* #maebass {
-    border:transparent;
-    direction: ;
-    width="50vw"
-    height="50vw"
-    behavior="alternate"
-} */
-
-/* input[type="checkbox"] {
-    content: url("images/yummenikki/poniko.png");
-    appearance: none;
-    display: block;
-    width: auto;
+#earthboundmodel {
     height: auto;
+    width: 25vw
 }
-
-input[type="checkbox"]:checked {
-    content: url("images/yummenikki/uboa.png");
-} */
-
-/* input[type="checkbox"] {
-    content: url('http://placekitten.com/150/160');
-    appearance: none;
-    display: block;
-    width: 150px;
-    height: 150px;
-}
-
-input[type="checkbox"]:checked {
-    content: url('https://static.wikia.nocookie.net/yumenikki/images/0/0f/Uboa.png');
-} */
-
-
-
-/* p {
-    padding: 0.5em;
-    position:relative; left:80px; top:20px;
-}
-
-section {
-    display: flex ;
-    flex-direction: column;
-    justify-content: right;
-    align-items: right;
-
-} */
