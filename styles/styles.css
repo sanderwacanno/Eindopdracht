@@ -26,6 +26,10 @@ h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h4 {
+    padding-bottom: 0em;
+}
+
 q {
     color:#757575;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -43,13 +47,12 @@ nav {
     justify-content: left;
 }
 
-.title {
-    border-bottom: 5px solid #475B7C;
-    background-color: #ABC4EA;
+#title {
+    width: 40%;
+    height: 40%;
     padding: 0.5em;
-    width: auto;
-    max-height: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .imagerow {
@@ -84,14 +87,32 @@ nav {
     width: 25vw;
     border: 5px solid #ABC4EA;
     border-radius: 10px 10px 10px 10px;
+    animation-name: imagepopup; 
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
 }
 
-iframe {
-    height:20vw;
-    width: 25vw;
+.imagecollumn hr {
+    width: 27vw;
+    border: none;
+}
+
+@keyframes imagepopup {
+    from {
+        width: 0vw;
+    }
+    to {
+        width: 25vw;
+    }
 }
 
 audio {
+    width: 25vw;
+}
+
+.video {
+    border: 0;
+    height:20vw;
     width: 25vw;
 }
 
@@ -132,6 +153,17 @@ a:active {
     color: rgb(127, 127, 127);
 }
 
+.gamelink {
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #475B7C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ABC4EA;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 0.5vw;
+    text-align: center;
+}
 
 .sprite {
     transition: all 250ms ease-out;
@@ -151,18 +183,6 @@ a:active {
     border-radius: 10px 10px 10px 10px;
 }
 
-#title {
-    width: 40%;
-    height: 40%;
-    padding: 0.5em;
-    display: flex;
-    justify-content: center;
-}
-
-.video {
-    border: 0;
-}
-
 .article {
     background: rgb(233,242,255);
     background: linear-gradient(180deg, rgba(233,242,255,1) 0%, rgba(200,221,254,1) 3%, rgba(151,178,219,1) 97%, rgba(89,123,175,1) 100%);
@@ -172,8 +192,8 @@ a:active {
     padding-left: 0.5em;
     padding-bottom: 0.5em;
     padding-right: 0.5em;
+    /* width: 70vw; */
 }
-
 
 .articlelist {
     display: flex;
@@ -185,6 +205,26 @@ a:active {
     flex-direction: row-reverse;
     display: flex;
     justify-content: space-around;
+}
+
+.characterprofiles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.characterprofiles img {
+    width: auto;
+    height: 15vw;
+    
+}
+
+.characterprofile {
+    width: 30vw;
+}
+
+.characterprofile p {
+    text-align: left;
+    width: 25vw;
 }
 
 .pageintro {
@@ -229,4 +269,14 @@ a:active {
 #earthboundmodel {
     height: auto;
     width: 25vw
+}
+
+#stock {
+    height: auto;
+    width: 50vw 
+}
+
+#bullethell {
+    height: auto;
+    width: 40vw 
 }
